@@ -1,8 +1,12 @@
+import File1 from './File1';
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <h1>Hi, Aniket, this project has done by Vite</h1>
+    <>    {/** fragment  -- without this we can return one thing only */}
+    <File1 />       
+    <h2>Hyy, Aniket</h2>
+    <p>yeah</p>
+    </>
   )
 }
 

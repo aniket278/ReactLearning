@@ -1,7 +1,7 @@
-
+import File1 from './File1';
 function App() {
   return (
-    <h1>Hello Aniket, this project is done by React</h1>
+    <File1 />
   );
 }
 
